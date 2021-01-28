@@ -15,12 +15,16 @@
 
     {% block corecss %}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lato:wght@100;300;700;900&family=Poppins:wght@100;200;300;400;500;700&family=Prata&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
     {% block extra_css %}
     {% endblock %}
 
     {% block corejs %}
+        <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -29,24 +33,32 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title> Xeption {% block extra_title %}{% endblock %}</title>
+    <title> XEPTION &#127769; Jewellery {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
     <header class="container-fluid fixed-top">
-        <div class="row">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <nav class="navbar navbar-expand-md sticky-top navbar-light">
-                <a href="{% url 'home' %}" class="navbar-brand">
-                   <h2 class="logo-font text-black my-0"><strong>XEPTION</strong></h2>
-                   <h4 class="logo-font my-0">LONDON</h4>
-                    
+        <!----BANNER FREE SHIPPING-->
+       
+         <div class="row black-banner py-1" style="background-color: black;">
+            <div class="col-12">
+               <p class="text-center text-white">
+                 <strong>  &#10024;FREE SHIPPING FOR ALL UK ORDERS!&#10024;  </strong>
+               </p>
+            </div>
+         </div>
+
+
+
+         <div class="row" style="background-color: white;">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0" >
+                <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                    <h2 class="logo-font text-black my-0" style="text-decoration: none; color: black; font-size: 40px; padding-left: 70px;"><strong style="font-family: 'Homemade Apple', cursive;">Xeption &#127769;</strong> </h2>
                 </a>
-                </nav>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
+                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search Products">
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                                 <span class="icon">
@@ -62,8 +74,8 @@
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <div><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0">My Account</p>
+                                <div><i class="fas fa-user-circle fa-lg"></i></div>
+                                <p class="my-0 text-dark">Account</p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -82,8 +94,8 @@
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                             <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                                <p class="my-0">
+                                <div><i class="fas fa-shopping-cart fa-lg"></i></div>
+                                <p class="my-0 text-dark">
                                     {% if grand_total %}
                                         ${{ grand_total|floatformat:2 }}
                                     {% else %}
@@ -96,6 +108,9 @@
                 </ul>
             </div>
         </div>
+         <!--LOGO -->
+         <!-- Navbar -->
+   
     </header>
 
 
