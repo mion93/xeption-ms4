@@ -1,5 +1,5 @@
 
-
+/* DELIVERY BANNER */
 .black-banner {
     background-color: black;
 }
@@ -103,62 +103,72 @@ a.category-badge > span.badge:hover {
     bottom: 10px;
     right: 10px;
 }
+/* LANDING IMAGE */
 
 
-.landing-image {
-    background-image: url('https://images.unsplash.com/photo-1596944924591-1e64760c2be8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+
+@media only screen and (max-width: 320px) {
+    /* styles for narrow screens */
+    .showcase-text{
+      margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    /* styles for MacBook Pro-sized screens and larger */
+    .showcase-text{
+        margin-top: 200px;
+    }
+}
+
+/* PRODUCTS CATEGORIES */
+
+.category-cards:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.show-product {
+    font-size: 15px;
    
-
-    background-repeat: no-repeat; 
-    /* Set a specific height */
-    height: 1000px;
- 
+}
+.show-product:hover {
+background: #F7D4C8;
+letter-spacing: 2px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -7px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
 }
 
+/* FOLLOW US INSTAGRAM */
+#instagram {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 30px;
+    text-decoration: none;
 
 
-#advantages {
-  text-align: center;
-  text-decoration: none;
-  color: black;
+
+}
+/*---SHOWCASE----*/
+showcase .showcase-text {
+  
 }
 
-#advantages .box .icon {
-  position: absolute;
-  font-size: 120px;
+.showcase .showcase-img {
   width: 100%;
-  text-align: center;
-  top: 0px;
-  left: 0;
-  height: 100%;
-  float: left;
-  color: #eee;
-  background-color: white;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  z-index: 1;
-  font-family: 'Poppins', serif;
+height: auto;
+  
 }
 
-#advantages .box h3 {
-  position: relative;
-  margin: 0 0 10px;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  z-index: 2;
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
 }
 
-#advantages .box h3 a:hover {
-  text-decoration: none;
-}
 
-#advantages .box p {
-  position: relative;
-  color: #555;
-  z-index: 2;
-}
-
+/* FOOTER */
 .footer {
 	background: BLACK;
 	height: auto;
@@ -286,4 +296,29 @@ a.category-badge > span.badge:hover {
 }
 .payments {
 font-size: 25px;
+color: #F7D4C8;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 14px;
+    }
 }
