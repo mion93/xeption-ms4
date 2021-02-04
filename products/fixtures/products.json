@@ -1,0 +1,954 @@
+[
+   {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+         "sku":"00001",
+         "name":"Gold Plated Not Today Satan Necklace",
+         "price":9.99,
+         "category":1,
+         "description":"Gold Plated Not Today Satan with Crystal Flower / Lenght: 23cm. Pendant Charm is 2.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":4.0,
+         "image_url":"",
+         "image":"00001"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+         "sku":"00002",
+         "name":"Gold Plated LOVE Necklace",
+         "price":10.99,
+         "category":1,
+         "description":"Gold Plated LOVE Necklace with Pearls / Lenght: 23cm. Pendant Charm is 2.2cm x 2.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00002"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+         "sku":"00003",
+         "name":"Gold Plated 4 Pieces Set Rose Moon Lion Necklace",
+         "price":9.99,
+         "category":1,
+         "description":"Gold Plated 4 Layered Moon, Rose, Lion Pendant Necklace  / Lenght: 18, 22, 23,26 cm.  The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00003"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "sku":"00004",
+         "name":"Gold Plated SUN Necklace",
+         "price":11.99,
+         "category":1,
+         "description":"Gold Plated Sun Emblem Necklace  / Lenght: 26cm. Pendant Charm is 2.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00004"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "sku":"00005",
+         "name":"Silver Plated MOON RING Necklace",
+         "price":9.99,
+         "category":1,
+         "description":"Silver Plated Moon Ring Necklace / Lenght: 23cm. Pendant Charm is 2.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00005"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "sku":"00006",
+         "name":"Silver Plated SUN Summer Necklace",
+         "price":10.99,
+         "category":1,
+         "description":"Silver Plated Summer Sun Pendant Necklace / Lenght: 23cm. Pendant Charm is 2.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":4.0,
+         "image_url":"",
+         "image":"00006"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "sku":"00007",
+         "name":"Gold Plated SUN Summer Necklace",
+         "price":10.99,
+         "category":1,
+         "description":"Gold Plated Summer Sun Pendant Necklace / Lenght: 23cm. Pendant Charm is 2.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00007"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "sku":"00008",
+         "name":"Gold Plated 3 Pieces Moon, Pearl & Crystals Necklace",
+         "price":14.99,
+         "category":1,
+         "description":"Gold Plated 3 Layers Necklace with Pearl, Crystals and Moon Ring / Lenght: 18-23-26cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00008"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.product",
+      "fields":{
+         "sku":"00009",
+         "name":"Gold & Silver Plated YOU ARE MY SUNSHINE SUNFLOWER Necklace",
+         "price":15.99,
+         "category":1,
+         "description":"Gold Plated Sunflower Pendant Necklace with YOU ARE MY SUNSHINE engraved text / Lenght: 23cm. Pendant Charm is 4.2cm x 3.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00009"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "sku":"00010",
+         "name":"Gold Plated AMBRA Necklace",
+         "price":10.99,
+         "category":1,
+         "description":"Gold Plated AMBRA Necklace with two layers  / Lenght: 23-25cm.  The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00010"
+      }
+   },
+   {
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "sku":"00011",
+         "name":"Gold Plated Butterfly & Pearls Chocker",
+         "price":10.99,
+         "category":1,
+         "description":"Gold Plated Pendant Pearl Chocker with Gold Plated Butterfly / Lenght: 23cm. Pendant Charm is 2.2cm x 2.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00011"
+      }
+   },
+   {
+      "pk":12,
+      "model":"products.product",
+      "fields":{
+         "sku":"00012",
+         "name":"Gold Plated BLESSED Necklace Choker",
+         "price":10.99,
+         "category":1,
+         "description":"Gold Plated Necklace with BLESSED text / Lenght: 22cm. Pendant Charm is 3.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00012"
+      }
+   },
+   {
+      "pk":13,
+      "model":"products.product",
+      "fields":{
+         "sku":"00013",
+         "name":"Gold Plated 3 Pieces MOON STAR HEART Necklace Set ",
+         "price":15.99,
+         "category":1,
+         "description":"Gold Plated 3 Layers Necklace with Star, heart, half-moon pendant charms / Lenght: 22-23-25cm. Pendant Charm are 1.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00013"
+      }
+   },
+   {
+      "pk":14,
+      "model":"products.product",
+      "fields":{
+         "sku":"00014",
+         "name":"Gold Plated 3 Pieces STAR MOON Necklace Set",
+         "price":15.99,
+         "category":1,
+         "description":"Gold Plated 3 Layered Necklace with bells charms, star and half-moon charms. / Lenght: 23cm. Pendant Charm are 1.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00014"
+      }
+   },
+   {
+      "pk":15,
+      "model":"products.product",
+      "fields":{
+         "sku":"00015",
+         "name":"Gold Plated SUNFLOWER Necklace",
+         "price":15.99,
+         "category":1,
+         "description":"Gold Plated Yellow Sunflower with gold-plated leafes Necklace / Lenght: 23cm. Pendant Charm is 2.2cm x 1.3cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00015"
+      }
+   },
+   {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "sku":"00016",
+         "name":"Gold Plated 2 Pieces Chocker Necklace Set",
+         "price":14.99,
+         "category":1,
+         "description":"Gold Plated 2 Layered Necklace Choker / Lenght: 23cm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00016"
+      }
+   },
+   {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "sku":"00021",
+         "name":"Gold Plated CAT Crystal Earrings",
+         "price":10.99,
+         "category":2,
+         "description":"Gold Plated Earrings with Crystal Cats and Crystal Star / Lenght: 5cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00021"
+      }
+   },
+   {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "sku":"00022",
+         "name":"Gold Plated CIRCLE RINGS Earrings",
+         "price":10.99,
+         "category":2,
+         "description":"Gold Plated Earrings with Circles Pendants / Lenght: 8cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00022"
+      }
+   },
+   {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "sku":"00023",
+         "name":"Gold CROSSED HEART Crystal Earrings",
+         "price":10.99,
+         "category":2,
+         "description":"Gold Plated Earrings with Crossed Heart Design  / Lenght: 5cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00023"
+      }
+   },
+   {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "sku":"00024",
+         "name":"Gold Plated XMAS Earrings",
+         "price":8.99,
+         "category":2,
+         "description":"Gold Plated Earrings with XMAS Pendant Charms / Lenght: 5cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00024"
+      }
+   },
+   {
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "sku":"00025",
+         "name":"Gold Plated CIRCLE CHAIN Circle Earrings",
+         "price":11.99,
+         "category":2,
+         "description":"Gold Plated Earrings with a Rounded Chain Design / Lenght: 6cm. Gold Plated  earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00025"
+      }
+   },
+   {
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "sku":"00026",
+         "name":"Gold Plated SNAKE Crystal Earrings",
+         "price":10.99,
+         "category":2,
+         "description":"Gold Plated Earrings with Snake Design / Lenght: 5cm. Gold Plated  earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00026"
+      }
+   },
+   {
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "sku":"00027",
+         "name":"Gold Plated Circle BLACK RIBBON Earrings",
+         "price":11.99,
+         "category":2,
+         "description":"Gold Plated Circle Earrings with Black Ribbon / Lenght: 5cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00027"
+      }
+   },
+   {
+      "pk":28,
+      "model":"products.product",
+      "fields":{
+         "sku":"00028",
+         "name":"Silver Plated CLOUD Earrings",
+         "price":6.99,
+         "category":2,
+         "description":"Silver Plated with Cloud Polymer Pendant Charm Earrings / Lenght: 3cm. Silver earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00028"
+      }
+   },
+   {
+      "pk":29,
+      "model":"products.product",
+      "fields":{
+         "sku":"00029",
+         "name":"Gold Plated Circle Oval Rimah Earrings",
+         "price":12.99,
+         "category":2,
+         "description":"Gold Plated Earrings with Oval and Circle Pendant Charms / Lenght: 6cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00029"
+      }
+   },
+   {
+      "pk":30,
+      "model":"products.product",
+      "fields":{
+         "sku":"00030",
+         "name":"Gold Plated CIRCLE Earrings",
+         "price":7.99,
+         "category":2,
+         "description":"Gold Plated Earrings with Circle Design / Lenght: 5cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00030"
+      }
+   },
+   {
+      "pk":31,
+      "model":"products.product",
+      "fields":{
+         "sku":"00031",
+         "name":"Gold Plated LETTER B Circle Earrings",
+         "price":7.99,
+         "category":2,
+         "description":"Gold Plated Letter B Earrings with Circle Design / Lenght: 3cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00031"
+      }
+   },
+   {
+      "pk":32,
+      "model":"products.product",
+      "fields":{
+         "sku":"00032",
+         "name":"Gold Plated MOON STAR PLANET Earrings",
+         "price":12.99,
+         "category":2,
+         "description":"Gold Plated Earrings with Planted and Moon/Star Design / Lenght: 3cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00032"
+      }
+   },
+   {
+      "pk":33,
+      "model":"products.product",
+      "fields":{
+         "sku":"00033",
+         "name":"Gold Plated BLACK RIBBON Crystal Earrings",
+         "price":10.99,
+         "category":2,
+         "description":"Gold Plated Crystals Ribbon Earrings  / Lenght: 3cm. Gold Plated  earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00033"
+      }
+   },
+   {
+      "pk":34,
+      "model":"products.product",
+      "fields":{
+         "sku":"00034",
+         "name":"Gold Plated BLACK CIRCLE CRYSTALS Earrings",
+         "price":9.99,
+         "category":2,
+         "description":"Gold Plated Circle Earrings with Black Onyx Crystal / Lenght: 5cm. Gold Plated  earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00034"
+      }
+   },
+   {
+      "pk":35,
+      "model":"products.product",
+      "fields":{
+         "sku":"00035",
+         "name":"Gold Plated SQUARE CHAIN Earrings",
+         "price":10.99,
+         "category":2,
+         "description":"Gold Plated Earrings with Rounded Square Shape / Lenght: 5cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00035"
+      }
+   },
+   {
+      "pk":36,
+      "model":"products.product",
+      "fields":{
+         "sku":"00036",
+         "name":"Gold Plated Spiral Circle Earrings",
+         "price":11.99,
+         "category":2,
+         "description":"Gold Plated Spriral Chain Circle Earrings  / Lenght: 3cm. Gold Plated earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00036"
+      }
+   },
+   {
+      "pk":37,
+      "model":"products.product",
+      "fields":{
+         "sku":"00037",
+         "name":"Gold Plated Fine CIRCLE Rimah Earrings",
+         "price":10.99,
+         "category":2,
+         "description":"Gold Plated Earrings with fine Rounded Design / Lenght: 6cm. Gold Plated  earring posts and butterflies. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00037"
+      }
+   },
+   {
+      "pk":40,
+      "model":"products.product",
+      "fields":{
+         "sku":"00040",
+         "name":"Gold Plated ROME Ring Set",
+         "price":15.99,
+         "category":3,
+         "description":"Gold Plated Rings Set 5 pieces inspired to Rome / Lenght: 17-18mm/ Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00040"
+      }
+   },
+   {
+      "pk":41,
+      "model":"products.product",
+      "fields":{
+         "sku":"00041",
+         "name":"Silver Plated Fine PEACE ACTITUTE Ring Set",
+         "price":17.99,
+         "category":3,
+         "description":"Silver Plated Rings Set 7 pieces / Lenght: 17-18mm. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00041"
+      }
+   },
+   {
+      "pk":42,
+      "model":"products.product",
+      "fields":{
+         "sku":"00042",
+         "name":"Gold Plated Fine CIRCLES Ring Set ",
+         "price":15.99,
+         "category":3,
+         "description":"Gold Plated Rings Set 8 pieces / Lenght: 18mm/ Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00042"
+      }
+   },
+   {
+      "pk":43,
+      "model":"products.product",
+      "fields":{
+         "sku":"00043",
+         "name":"Silver Plated Fine PETAL Ring Set",
+         "price":16.99,
+         "category":3,
+         "description":"Silver Plated Rings Set 5 pieces/ Lenght: 17-18mm / Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":4.0,
+         "image_url":"",
+         "image":"00043"
+      }
+   },
+   {
+      "pk":44,
+      "model":"products.product",
+      "fields":{
+         "sku":"00044",
+         "name":"Silver Plated Fine ERA Ring Set",
+         "price":13.99,
+         "category":3,
+         "description":"Silver Plated Rings Set 10 pieces / Lenght: 17-18mm / Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00044"
+      }
+   },
+   {
+      "pk":45,
+      "model":"products.product",
+      "fields":{
+         "sku":"00045",
+         "name":"Gold Plated Fine MIRA Ring Set",
+         "price":17.99,
+         "category":3,
+         "description":"Gold Plated Rings Set 5 pieces MIRA/ Lenght: 17-18mm / Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00045"
+      }
+   },
+   {
+      "pk":46,
+      "model":"products.product",
+      "fields":{
+         "sku":"00046",
+         "name":"Gold Plated Fine SERPENTINE Ring Set",
+         "price":17.99,
+         "category":3,
+         "description":"Gold Plated Rings Set 10 pieces SERPENTINE / Lenght: Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00046"
+      }
+   },
+   {
+      "pk":47,
+      "model":"products.product",
+      "fields":{
+         "sku":"00047",
+         "name":"Silver Plated Fine ANIMAL CIRCLE Ring Set",
+         "price":18.99,
+         "category":3,
+         "description":"Silver Plated Rings Set 12 pieces  ANIMAL CIRCLE / Lenght: Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00047"
+      }
+   },
+   {
+      "pk":48,
+      "model":"products.product",
+      "fields":{
+         "sku":"00048",
+         "name":"Silver Plated Fine AZULE Ring Set",
+         "price":18.99,
+         "category":3,
+         "description":"Silver Plated Rings Set 7 pieces AZULE  / Lenght: Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":4.0,
+         "image_url":"",
+         "image":"00048"
+      }
+   },
+   {
+      "pk":49,
+      "model":"products.product",
+      "fields":{
+         "sku":"00049",
+         "name":"Gold Plated Cat Ring ",
+         "price":10.99,
+         "category":3,
+         "description":"Gold Plated Cat Pendant Ring with Brown Ribbon  / Lenght: Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00049"
+      }
+   },
+   {
+      "pk":50,
+      "model":"products.product",
+      "fields":{
+         "sku":"00050",
+         "name":"Silver Plated Fine FENICE Ring Set",
+         "price":18.99,
+         "category":3,
+         "description":"Silver Plated Rings Set 10 pieces FENICE / Lenght: Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00050"
+      }
+   },
+   {
+      "pk":51,
+      "model":"products.product",
+      "fields":{
+         "sku":"00051",
+         "name":"Silver Plated Fine ELIXIR Ring Set",
+         "price":19.99,
+         "category":3,
+         "description":"Silver Plated Rings Set 8 pieces ELIXIR / Lenght: Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00051"
+      }
+   },
+   {
+      "pk":53,
+      "model":"products.product",
+      "fields":{
+         "sku":"00053",
+         "name":"Gold Plated Fine BLACK STONE Ring",
+         "price":9.99,
+         "category":3,
+         "description":"Gold Plated Black Onyx Ring / Lenght: Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00053"
+      }
+   },
+   {
+      "pk":54,
+      "model":"products.product",
+      "fields":{
+         "sku":"00054",
+         "name":"Gold Plated Fine ROMANTIC Ring Set",
+         "price":19.99,
+         "category":3,
+         "description":"Gold Plated Rings Set 10 pieces FINE ROMANTIC / Lenght: Adjustable. The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00054"
+      }
+   },
+   {
+      "pk":60,
+      "model":"products.product",
+      "fields":{
+         "sku":"00060",
+         "name":"Gold Plated CHAINED HEART Anklet Set",
+         "price":12.99,
+         "category":4,
+         "description":"Gold Plated Anklet CHAINED HEART / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00060"
+      }
+   },
+   {
+      "pk":61,
+      "model":"products.product",
+      "fields":{
+         "sku":"00061",
+         "name":"Gold Plated CHAINS Anklet Set",
+         "price":15.99,
+         "category":4,
+         "description":"Gold Plated Anklet CHAIS / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00061"
+      }
+   },
+   {
+      "pk":62,
+      "model":"products.product",
+      "fields":{
+         "sku":"00062",
+         "name":"Gold Plated RINHESTONES Anklet Set",
+         "price":16.99,
+         "category":4,
+         "description":"Gold Plated Anklet RINHESTONES / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00062"
+      }
+   },
+   {
+      "pk":63,
+      "model":"products.product",
+      "fields":{
+         "sku":"00063",
+         "name":"Gold Plated SEASHELL Anklet Set",
+         "price":12.99,
+         "category":4,
+         "description":"Gold Plated Anklet SEASHELL / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00063"
+      }
+   },
+   {
+      "pk":64,
+      "model":"products.product",
+      "fields":{
+         "sku":"00064",
+         "name":"Gold Plated DELICATE HEART Anklet Set",
+         "price":15.99,
+         "category":4,
+         "description":"Gold Plated Anklet DELICATE HEART / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00064"
+      }
+   },
+   {
+      "pk":65,
+      "model":"products.product",
+      "fields":{
+         "sku":"00065",
+         "name":"Gold Plated ORANGE SEA Anklet Set",
+         "price":13.99,
+         "category":4,
+         "description":"Gold Plated Anklet ORANGE SEA / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00065"
+      }
+   },
+   {
+      "pk":66,
+      "model":"products.product",
+      "fields":{
+         "sku":"00066",
+         "name":"Gold Plated HEART FREEDOM Anklet Set",
+         "price":15.99,
+         "category":4,
+         "description":"Gold Plated Anklet HEART FREEDOM / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00066"
+      }
+   },
+   {
+      "pk":67,
+      "model":"products.product",
+      "fields":{
+         "sku":"00067",
+         "name":"Gold Plated CYAN BLUE LOVE Anklet Set",
+         "price":16.99,
+         "category":4,
+         "description":"Gold Plated AnkletCYAN BLUE LOVE/ Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00067"
+      }
+   },
+   {
+      "pk":68,
+      "model":"products.product",
+      "fields":{
+         "sku":"00068",
+         "name":"Gold Plated DESERT NIGHTS Anklet Set",
+         "price":16.99,
+         "category":4,
+         "description":"Gold Plated Anklet DESERT NIGHTS / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00068"
+      }
+   },
+   {
+      "pk":69,
+      "model":"products.product",
+      "fields":{
+         "sku":"00069",
+         "name":"Gold Plated LOCKER Anklet",
+         "price":9.99,
+         "category":4,
+         "description":"Gold Plated Anklet LOCKER / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00069"
+      }
+   },
+   {
+      "pk":70,
+      "model":"products.product",
+      "fields":{
+         "sku":"00070",
+         "name":"Gold Plated BUTTERFLY Crystals Anklet Set",
+         "price":9.99,
+         "category":4,
+         "description":"Gold Plated Anklet BUTTERFLY Crystals / Lenght: Adjustable . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00070"
+      }
+   },
+   {
+      "pk":90,
+      "model":"products.product",
+      "fields":{
+         "sku":"00090",
+         "name":"Gold Plated & Silver Plated Branch Hairpin Set",
+         "price":10.99,
+         "category":5,
+         "description":"Gold & Silver Plated Hairpin / Lenght: 6cm . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00090"
+      }
+   },
+   {
+      "pk":91,
+      "model":"products.product",
+      "fields":{
+         "sku":"00091",
+         "name":"Gold Plated Ribbon Hairpin",
+         "price":8.99,
+         "category":5,
+         "description":"Gold Plated Ribbon Hairpin / Lenght: 6cm . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00091"
+      }
+   },
+   {
+      "pk":93,
+      "model":"products.product",
+      "fields":{
+         "sku":"00093",
+         "name":"Gold Plated Ribbon Pearl Hairpin Set",
+         "price":10.99,
+         "category":5,
+         "description":"Gold Plated Black & Pink Ribbons Hairpin with pendant pearls / Lenght: 6cm . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00093"
+      }
+   },
+   {
+      "pk":94,
+      "model":"products.product",
+      "fields":{
+         "sku":"00094",
+         "name":"Gold Plated Butterfly Pearls Hairpin",
+         "price":9.99,
+         "category":5,
+         "description":"Gold Plated Pearled Butterfly Hairpin / Lenght: 6cm . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00094"
+      }
+   },
+   {
+      "pk":95,
+      "model":"products.product",
+      "fields":{
+         "sku":"00095",
+         "name":"Gold Plated Butterfly Pearls Hairclip",
+         "price":9.99,
+         "category":5,
+         "description":"Gold Plated Butterfly with Pearls Hairclip / Lenght: 6cm . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":4.0,
+         "image_url":"",
+         "image":"00095"
+      }
+   },
+   {
+      "pk":96,
+      "model":"products.product",
+      "fields":{
+         "sku":"00096",
+         "name":"Gold Plated & Silver Plated Diamond Hairpin Set",
+         "price":10.99,
+         "category":5,
+         "description":"Gold & Silver Plated Diamond Hairpin Set / Lenght: 6cm . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00096"
+      }
+   },
+   {
+      "pk":97,
+      "model":"products.product",
+      "fields":{
+         "sku":"00097",
+         "name":"Gold Plated Star Hairpin Set",
+         "price":10.99,
+         "category":5,
+         "description":"Gold Plated Star Hairpin Set / Lenght: 6cm . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00097"
+      }
+   },
+   {
+      "pk":98,
+      "model":"products.product",
+      "fields":{
+         "sku":"00098",
+         "name":"Gold Plated Circle Crossed Hairpin",
+         "price":6.99,
+         "category":5,
+         "description":"Gold Plated Crossed Circle Hairpin / Lenght: 6cm . The distinctive pattern of the shell means each piece is completely unique, see final image. ",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00098"
+      }
+   },
+   {
+      "pk":100,
+      "model":"products.product",
+      "fields":{
+         "sku":"00100",
+         "name":"XEPTION E-GIFT VOUCHER 20",
+         "price":20.00,
+         "category":6,
+         "description":"E-Gift Card of value of 20 £. E-VOUCHER-CODE will be sent after purchasing.",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00100"
+      }
+   },
+   {
+      "pk":101,
+      "model":"products.product",
+      "fields":{
+         "sku":"00101",
+         "name":"XEPTION E-GIFT VOUCHER 50",
+         "price":50.00,
+         "category":6,
+         "description":"E-Gift Card of value of 50 £. E-VOUCHER-CODE will be sent after purchasing.",
+         "rating":5.0,
+         "image_url":"",
+         "image":"00100"
+      }
+   }
+]
