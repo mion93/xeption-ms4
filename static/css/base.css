@@ -17,6 +17,7 @@
 body {
     font-family: 'Poppins', serif;
     background-color: #F7D4C8;
+    height: calc(100vh - 164px);
 }
 
 /* from Bulma */
@@ -204,7 +205,17 @@ transition: all 0.4s ease 0s;
   }
 }
 
+/* PRODUCTS */
 
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: #F7D4C8;
+	z-index: -1;
+}
 /* FOOTER */
 .footer {
 	background: BLACK;
