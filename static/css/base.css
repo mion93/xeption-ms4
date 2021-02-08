@@ -324,7 +324,7 @@ transition: all 0.4s ease 0s;
 	color: black;
 }
 .social li:hover {
-    border: 2px solid #F7D4C8;
+    
     color: black;
 	background: #F7D4C8;
 }
@@ -368,5 +368,16 @@ color: #F7D4C8;
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }

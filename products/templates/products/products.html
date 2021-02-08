@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
-                <h2 style="font-family: 'Prata', serif;">Browse All Jewellery</h2>
+                <h2 style="font-family: 'prata', serif; padding-top: 25px;" >BROWSE ALL JEWELLERY</h2>
                 <hr class="w-50 mb-1">
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <div class="row mt-1 mb-2"></div>
                 <div class="row">
                     {% for product in products %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3" >
                             <div class="card h-100 border-0">
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
@@ -35,13 +35,13 @@
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}No_Image_Available.jpg" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
-                                <div class="card-body pb-0 shadow-lg">
+                                <div class="card-body pb-0 bg-white shadow-lg"">
                                     <p class="mb-0">{{ product.name }}</p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold" style="font-family: 'prata', serif;">${{ product.price }}</p>
+                                            <p class="lead mb-0 text-left font-weight-bold" style="font-family: 'prata', serif; letter-spacing: 2px;">£{{ product.price }}</p>
                                             {% if product.rating %}
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                                             {% else %}
