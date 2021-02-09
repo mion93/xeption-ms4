@@ -220,12 +220,16 @@ transition: all 0.4s ease 0s;
 .footer {
 	background: BLACK;
 	height: auto;
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 	position: relative;
 	width: 100%;
-	border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    
+
 	
 }
+
+
 .footer p {
 	margin: 0;
 }

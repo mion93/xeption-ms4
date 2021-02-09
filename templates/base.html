@@ -98,7 +98,7 @@
             </li>
             <li class="list-inline-item">
                 <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                    href="">
+                    href="{% url 'view_bag' %}">
                     <div class="text-center">
                         <div><i class="fas fa-shopping-cart fa-lg"></i></div>
                         <p class="my-0">
@@ -139,7 +139,7 @@
      <!--FOOTER-->
     <hr>
   <footer>
-    <div class="footer" id="footer">
+    <div class="footer fixed-bottom" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
