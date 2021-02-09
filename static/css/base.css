@@ -50,14 +50,14 @@ body {
 .btn-outline-black {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
-    color: white !important;
+    color: #F7D4C8 !important;
 }
 
 .shop-now-button:hover,
@@ -220,7 +220,7 @@ transition: all 0.4s ease 0s;
 .footer {
 	background: BLACK;
 	height: auto;
-	padding-bottom: 0px;
+	padding-bottom: 30px;
 	position: relative;
 	width: 100%;
     border-bottom: 1px solid #CCCCCC;
