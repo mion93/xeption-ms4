@@ -11,28 +11,92 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <div class="container mb-5">
+    <div class="container mb-2">
         <div class="row">
-            <div class="col ">
+            <div class="col text-center ">
                 <hr>
-                <h2 class="logo-font mb-4 text-center font-weight-bold" style="font-family: 'prata', serif;">Shopping Bag</h2>
-                <hr>
+                <a class="category-badge text-decoration-none">
+                        <span class="p-3 mb-4 logo-font badge badge-white text-black rounded-0 border border-dark" style="font-size: 25px; font-family: 'Prata', serif;">Shopping Bag</span>
+                    </a>
+                
             </div>
         </div>
 
-        <div class="row text-center">
-            <div class="col justify-content-center">
+        <div class="row">
+            <div class="col">
                 {% if bag_items %}
-                    <div class="table-responsive rounded text-center"></div>
+                    <div class="table-responsive rounded">
+                        <table class="table table-sm table-borderless">
+                            <thead class="text-black">
+                                <tr>
+                                    <th scope="col">Products</th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Qty</th>
+                                   
+                                </tr>
+                            </thead>
+
+                            {% for item in bag_items %}
+                                <tr>
+                                    <td class="p-3 w-25">
+                                        <img class="img-fluid rounded" src="{{ item.product.image.url }}">
+                                        <hr style="border: 2px white solid;">
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0 text-uppercase"><strong>{{ item.product.name }}</strong></p>
+                                        <p class="my-0 small">SKU: {{ item.product.sku|upper }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0 font-weight-bold">${{ item.product.price }}</p>
+                                    </td>
+                                    <td class="py-3 ">
+                                        <p class="my-0">{{ item.quantity }}</p>
+                                    </td>
+                                   
+                                </tr>
+                                
+                            {% endfor %}
+                            <hr style="border: 2px white solid;">
+                            <tr>
+                                
+                                <td colspan="5" class="pt-5 text-right">
+                                    <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
+                                    <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
+                                    <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
+                                    {% if free_delivery_delta > 0 %}
+                                        <p class="mb-1 text-danger">
+                                            You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong> more!
+                                        </p>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" class="text-right">
+                                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                                        <span class="icon">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </span>
+                                        <span class="text-uppercase">Keep Shopping</span>
+                                    </a>
+                                    <a href="" class="btn btn-black rounded-0 btn-lg">
+                                        <span class="text-uppercase">Secure Checkout</span>
+                                        <span class="icon">
+                                            <i class="fas fa-lock"></i>
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 {% else %}
-                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 p-font mx-3 mb-2">
-                        <span class="icon" >
+                    <p class="lead mb-5">Your bag is empty.</p>
+                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                        <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>
-                        <span class="text-uppercase">Browse Products &#128091;</span>
+                        <span class="text-uppercase">Keep Shopping</span>
                     </a>
-                    <p class="lead mb-5 text-center">Your bag is empty.</p>
-                   
                 {% endif %}
             </div>
         </div>

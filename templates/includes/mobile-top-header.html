@@ -1,9 +1,14 @@
+<li class="list-inline-item">
+    <a class="nav-link d-block d-lg-none text-black " style="margin: 0; padding: 0;" href="{% url 'home' %}">
+        <div><i class="fas fa-home fa-lg my-0"></i></div>
+    </a>
+</li>
 
 <li class="list-inline-item">
-    <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="text-black nav-link d-block d-lg-none" style="margin: 0; padding: 0;" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-search fa-lg"></i></div>
-            <p class="my-0">Search</p>
+            
         </div>
     </a>
     <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
@@ -13,7 +18,7 @@
                 <div class="input-group-append">
                     <button class="form-control form-control btn btn-black border border-black rounded-0" type="submit">
                         <span class="icon">
-                            <i class="fas fa-search"></i>
+                            <i class="fas fa-search my-0"></i>
                         </span>
                     </button>
                 </div>
@@ -21,11 +26,13 @@
         </form>
     </div>
 </li>
+
+
 <li class="list-inline-item dropdown">
-    <a class="text-black nav-link d-block d-lg-none " href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="text-black nav-link d-block d-lg-none " style="margin: 0; padding: 0;" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
-            <div><i class="fas fa-user-circle fa-lg "></i></div>
-            <p class="my-0">Account</p>
+            <div><i class="fas fa-user fa-lg "></i></div>
+           
         </div>
     </a>
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -33,7 +40,7 @@
             {% if request.user.is_superuser %}
                 <a href="{% url 'account_logout' %}" class="dropdown-item">Product Management</a>
             {% endif %}
-            <a href="" class="dropdown-item"> Profile</a>
+            <a href="" class="dropdown-item">Profile</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
         {% else %}
             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
@@ -42,10 +49,10 @@
     </div>
 </li>
 <li class="list-inline-item">
-    <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none " href="{% url 'view_bag' %}">
+    <a class="{% if grand_total %}text-black font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none " href="{% url 'view_bag' %}">
         <div class="text-center">
-            <div><i class="fas fa-shopping-cart fa-lg"></i></div>
-            <p class="my-0">
+            <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+            <p class="my-1" >
                 {% if grand_total %}
                     £{{ grand_total|floatformat:2 }}
                 {% else %}
