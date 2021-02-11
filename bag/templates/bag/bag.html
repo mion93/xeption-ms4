@@ -44,11 +44,11 @@
                                         <hr style="border: 2px white solid;">
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0 text-uppercase"><strong>{{ item.product.name }}</strong></p>
+                                        <p class="my-0 text-uppercase" style="font-size: 15;"><strong>{{ item.product.name }}</strong></p>
                                         <p class="my-0 small">SKU: {{ item.product.sku|upper }}</p>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0 font-weight-bold">£{{ item.product.price }}</p>
+                                        <p class="my-0">£{{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 ">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
@@ -56,7 +56,7 @@
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <div class="input-group-prepend">
-                                                        <button class="decrement-qty btn btn-sm btn-black rounded-0" 
+                                                        <button class="decrement-qty btn btn-sm btn-black rounded-0 my-o" style="padding: 4px;" 
                                                             data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
                                                             <span>
                                                                 <i class="fas fa-minus fa-sm"></i>
@@ -68,7 +68,7 @@
                                                         data-item_id="{{ item.item_id }}"
                                                         id="id_qty_{{ item.item_id }}">
                                                     <div class="input-group-append">
-                                                        <button class="increment-qty btn btn-sm btn-black rounded-0"
+                                                        <button class="increment-qty btn btn-sm btn-black rounded-0" style="padding: 4px;" 
                                                             data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
                                                             <span>
                                                                 <i class="fas fa-plus fa-sm"></i>
@@ -79,7 +79,7 @@
                                                 </div>
                                             </div>
                                         </form>
-                                        <a class="update-link text-dark"><small>Update</small></a>
+                                        <a class="update-link text-black"><small>Update</small></a>
                                         <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove</small></a>
                                     </td>
                                    
@@ -90,12 +90,13 @@
                             <tr>
                                 
                                 <td colspan="5" class="pt-5 text-right">
-                                    <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
+                                    <h6 ><strong >Bag Total: ${{ total|floatformat:2 }}</strong></h6>
                                     <h6>Delivery: £{{ delivery|floatformat:2 }}</h6>
-                                    <h4 class="mt-4"><strong>Grand Total: £{{ grand_total|floatformat:2 }}</strong></h4>
+                                    <h4 class="mt-4" style="font-family: 'prata', serif;"><strong>Grand Total: £{{ grand_total|floatformat:2 }}</strong></h4>
+                                   
                                     {% if free_delivery_delta > 0 %}
-                                        <p class="mb-1 text-danger">
-                                            You could get free delivery by spending just <strong>£{{ free_delivery_delta }}</strong> more!
+                                        <p class="mb-1 text-dark">
+                                            Fee delivery by spending just <strong>£ {{ free_delivery_delta }}</strong> more!
                                         </p>
                                     {% endif %}
                                 </td>
