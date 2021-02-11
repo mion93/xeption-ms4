@@ -16,7 +16,7 @@
             <div class="col text-center ">
                 <hr>
                 <a class="category-badge text-decoration-none">
-                        <span class="p-3 mb-4 logo-font badge badge-white text-black rounded-0 border border-dark" style="font-size: 25px; font-family: 'Prata', serif;">Shopping Bag</span>
+                        <span class="p-3 mb-4 logo-font badge badge-white text-white bg-black" style="font-size: 25px; font-family: 'Prata', serif;">Shopping Bag</span>
                     </a>
                 
             </div>
@@ -48,7 +48,7 @@
                                         <p class="my-0 small">SKU: {{ item.product.sku|upper }}</p>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">£{{ item.product.price }}</p>
+                                        <p class="my-0"><strong>£{{ item.product.price }}</strong></p>
                                     </td>
                                     <td class="py-3 ">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
