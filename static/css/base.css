@@ -105,6 +105,11 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
+.update-link, .remove-item {
+    cursor: pointer;
+
+}
+
 
 /* NAV HOVER */
 
