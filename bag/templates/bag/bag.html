@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-
+{% load bag_tools %}
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -109,7 +109,7 @@
                                         </span>
                                         <span class="text-uppercase">SHOP PRODUCTS&#128091;</span>
                                     </a>
-                                    <a href="" class="btn btn-black rounded-0 btn-lg">
+                                    <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
                                         <span class="text-uppercase">Checkout&#128179;</span>
                                        
                                     </a>
