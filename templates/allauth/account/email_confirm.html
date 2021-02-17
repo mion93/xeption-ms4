@@ -6,8 +6,16 @@
 {% block head_title %}{% trans "Confirm E-mail Address" %}{% endblock %}
 
 
-{% block content %}
-<h1>{% trans "Confirm E-mail Address" %}</h1>
+{% block inner_content %}
+     <div class="container-fluid text-center">
+                <hr>
+                <a class="category-badge text-decoration-none ">
+                        <span class="p-3 mb-4 logo-font badge badge-white text-white bg-black text-center" style="font-size: 25px; font-family: 'Prata', serif;">{% trans "Confirm E-mail Address" %}</span>
+                    </a>
+                <hr style="border: 2px white solid;">
+          
+
+                </div>
 
 {% if confirmation %}
 
@@ -29,3 +37,4 @@
 {% endif %}
 
 {% endblock %}
+

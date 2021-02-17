@@ -2,10 +2,19 @@
 
 {% load i18n %}
 
-{% block head_title %}{% trans "E-mail Addresses" %}{% endblock %}
+{% block head_title %}{% trans "Account" %}{% endblock %}
 
-{% block content %}
-    <h1>{% trans "E-mail Addresses" %}</h1>
+{% block inner_content %}
+      <div class="container-fluid text-center">
+                <hr>
+                <a class="category-badge text-decoration-none ">
+                        <span class="p-3 mb-4 logo-font badge badge-white text-white bg-black text-center" style="font-size: 25px; font-family: 'Prata', serif;">{% trans "E-mail Addresses" %}</span>
+                    </a>
+                <hr style="border: 2px white solid;">
+          
+
+                </div>
+    
 {% if user.emailaddress_set.all %}
 <p>{% trans 'The following e-mail addresses are associated with your account:' %}</p>
 
@@ -44,15 +53,14 @@
 
 {% endif %}
 
-  {% if can_add_email %}
+
     <h2>{% trans "Add E-mail Address" %}</h2>
 
     <form method="post" action="{% url 'account_email' %}" class="add_email">
         {% csrf_token %}
-        {{ form.as_p }}
+        {{ form|crispy }}
         <button name="action_add" type="submit">{% trans "Add E-mail" %}</button>
     </form>
-  {% endif %}
 
 {% endblock %}
 
