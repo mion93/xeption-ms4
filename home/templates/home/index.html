@@ -16,81 +16,90 @@
 <!-- SHOW PRODUCTS SECTION-->
 <!-- Portfolio Grid-->
  
-       
- <section class="showcase">
-    <div class="container-fluid">
-      <div class="row ">
-
-        
-        
-         <div class="col-lg-6 text-white showcase-img" style="background-image: url('https://images.unsplash.com/photo-1596942502985-a014d10b6b60?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'); background-position: center;">
-            
-        </div>   
-      </div>
-      
-      
+<div class="index" style="background-image: url('/media/bg_10.jpg'); 
+background-size: cover;
+  height: calc(100vh - 164px);
+  display: flex;
+  align-items: center;
+  justify-content: center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-7 col-md-6 my-auto">
+                <h2 style="font-family: 'prata', sans-serif;">
+                    BROWSE OUR COLLECTIONS
+                </h2>
+                <p></p>
+                <div class="my-4">
+                    <h4>
+                        <a href="{% url 'products' %}"
+                            class="shop-now-button btn rounded-0 text-uppercase py-2">Shop
+                            Now</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+</div>
+
 <!---CATEGORIES-->
 
- <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase text-center justify-content-center" style="display: flex;">&#127769;Shop Now&#127769;</a>
 
- <h2 class="page-section-heading text-center text-uppercase text-black" style="font-family: 'Prata', serif; padding: 15px;">Categories</h2>
- <hr>
+
+ 
+
 <div class="container-fluid mt-4" style="padding-top: 30px; padding-bottom: 50px;">
     <div class="row justify-content-center">
-        <div class="col-auto mb-3">
-            <div class="card category-cards" style="width: 18rem; background-image: url('https://images.unsplash.com/photo-1609242914948-c1740efdae9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=933&q=80'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+        <div class="col-auto mb-3 text-center">
+            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1609242914948-c1740efdae9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=933&q=80'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                    <h2 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;">Earrings</h2>
+                    <h1 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;"><a href="{% url 'products' %}?category=earrings" target="_blank" style="text-decoration: none; color: white;">Earrings</a></h1>
                 
                     <a href="{% url 'products' %}?category=earrings" class="btn btn-sm text-light show-product" style="background-color: black">SHOW</a>
                     
                 </div>
             </div>
         </div>
-        <div class="col-auto mb-3">
-            <div class="card category-cards" style="width: 18rem; background-image: url('https://images.unsplash.com/photo-1611652022419-a9419f74343d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+        <div class="col-auto mb-3 text-center">
+            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1611652022419-a9419f74343d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                    <h2 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;">Necklaces</h2>
+                    <h1 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;"><a href="{% url 'products' %}?category=necklaces" target="_blank" style="text-decoration: none; color: white;">Necklaces</a></h1>
                
-                    
                     <a href="{% url 'products' %}?category=necklaces" class="btn btn-sm text-light show-product" style="background-color: black">SHOW</a>
                 </div>
             </div>
         </div>
-        <div class="col-auto mb-3">
-            <div class="card category-cards" style="width: 18rem; background-image: url('https://images.unsplash.com/photo-1599458348985-236f9b110da1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+        <div class="col-auto mb-3 text-center">
+            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1599458348985-236f9b110da1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                    <h2 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;">Rings</h2>
+                    <h1 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;"><a href="{% url 'products' %}?category=rings" target="_blank" style="text-decoration: none; color: white;">Rings</a></h1>
                       
                     <a href="{% url 'products' %}?category=rings" class="btn btn-sm text-light show-product" style="background-color: black">SHOW</a>
                 </div>
             </div>
         </div>
-        <div class="col-auto mb-3">
-            <div class="card category-cards" style="width: 18rem; background-image: url('https://img.nihaojewelry.com/product/2020/7/2/1278498302219915264_thumb_800x800/NHXI231002.jpg'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+        <div class="col-auto mb-3 text-center">
+            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://img.nihaojewelry.com/product/2020/7/2/1278498302219915264_thumb_800x800/NHXI231002.jpg'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                    <h2 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;">Anklets</h2>
+                    <h1 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;"><a href="{% url 'products' %}?category=anklets" target="_blank" style="text-decoration: none; color: white;">Anklets</a></h1>
                    
                            
                     <a href="{% url 'products' %}?category=anklets" class="btn btn-sm text-light show-product" style="background-color: black">SHOW</a>
                 </div>
             </div>
         </div>
-        <div class="col-auto mb-3">
-            <div class="card category-cards" style="width: 18rem; background-image: url('https://img.nihaojewelry.com/product/2020/8/4/1290457282420805632_thumb_800x800/NHAU240822.jpg'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+        <div class="col-auto mb-3 text-center">
+            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://img.nihaojewelry.com/product/2020/8/4/1290457282420805632_thumb_800x800/NHAU240822.jpg'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                   <h2 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;">Hair Clips</h2>
+                   <h1 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;"><a href="{% url 'products' %}?category=hairpins" target="_blank" style="text-decoration: none; color: white;">Hair Clips</a></h1>
                 
                     <a href="{% url 'products' %}?category=hairpins" class="btn btn-sm text-light show-product" style="background-color: black">SHOW</a>
                 </div>
             </div>
         </div>
-        <div class="col-auto mb-3">
-            <div class="card category-cards" style="width: 18rem; background-image: url('https://images.unsplash.com/photo-1528121238716-306799520ddc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1400&q=80'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+        <div class="col-auto mb-3 text-center">
+            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1528121238716-306799520ddc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1400&q=80'); background-position: center; text-shadow: 1px 1px 1px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                  <h2 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;">E-gifts</h2>
+                  <h1 class="card-title" style="color: white; font-family: 'Homemade Apple', cursive;"><a href="{% url 'products' %}?category=egift" target="_blank" style="text-decoration: none; color: white;">E-gifts</a></h1>
            
                     <a href="{% url 'products' %}?category=egift" class="btn btn-sm text-light show-product" style="background-color: black">SHOW</a>
                 </div>
