@@ -493,3 +493,12 @@ color: #F7D4C8;
     border-color: #BC7B6A;
     border-radius: 0;
 }
+
+
+/*------------------------------------------------------------------ JEWELLERY CARE */
+
+.card-header {
+    background-color: white;
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 2px;
+}
