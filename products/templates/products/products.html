@@ -73,8 +73,8 @@
                                 </div>
                                 {% if request.user.is_superuser %}
                                 <small class="ml-3">
-                                    <a href="{% url 'edit_product' product.id %}" class="text-info font-weight-bold">Edit</a> |
-                                    <a class="text-danger font-weight-bold" href="{% url 'delete_product' product.id %}">Delete</a>
+                                    <a href="{% url 'edit_product' product.id %}" class="font-weight-bold" style="color: #BC7B6A;">Edit</a> |
+                                    <a class="font-weight-bold" style="color: #6d3a15;" href="{% url 'delete_product' product.id %}">Delete</a>
                                 </small>
                                 {% endif %}
                             </div>

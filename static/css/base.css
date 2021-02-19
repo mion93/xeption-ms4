@@ -1,5 +1,5 @@
 
-/* DELIVERY BANNER */
+/* ------------------------------------------------------------------------DELIVERY BANNER */
 .black-banner {
     background-color: black;
 }
@@ -45,6 +45,9 @@ body {
 .btn-black {
     background: black;
     color: white;
+    font-family: 'prata', serif;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .btn-outline-black {
@@ -110,7 +113,7 @@ a.category-badge > span.badge:hover {
 
 }
 
-/* ------------------------------- bootstrap toasts */
+/* ------------------------------------------------------------------ bootstrap toasts */
 
 .message-container {
     position: fixed;
@@ -126,7 +129,7 @@ a.category-badge > span.badge:hover {
 .toast-capper {
     height: 2px;
 }
-/* NAV HOVER */
+/*----------------------------------------------------------------- NAV HOVER */
 
 #search-button:hover {
     background-color:  #F7D4C8;
@@ -137,7 +140,7 @@ a.category-badge > span.badge:hover {
     color:  #F7D4C8;
     
 }
-/* LANDING IMAGE */
+/* -------------------------------------------------------LANDING IMAGE */
 
 
 
@@ -155,7 +158,7 @@ a.category-badge > span.badge:hover {
     }
 }
 
-/* PRODUCTS CATEGORIES */
+/* -----------------------------------------PRODUCTS CATEGORIES */
 
 .category-cards:hover {
   opacity: 0.8;
@@ -175,7 +178,7 @@ box-shadow: 5px 40px -7px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
 }
 
-/* FOLLOW US INSTAGRAM */
+/* ------------------------------------------------------------- FOLLOW US INSTAGRAM */
 #instagram {
     font-family: 'Homemade Apple', cursive;
     font-size: 30px;
@@ -185,7 +188,7 @@ transition: all 0.4s ease 0s;
 
 }
 
-/*--- CONTAINER 2 ---*/
+/*--- -----------------------------------------------------------CONTAINER 2 ---*/
 
 .how-section1{
     margin-top:-15%;
@@ -225,7 +228,7 @@ transition: all 0.4s ease 0s;
   }
 }
 
-/* PRODUCTS */
+/*----------------------------------------------------------------------------------- PRODUCTS */
 
 .overlay {
 	height: 100%;
@@ -236,7 +239,7 @@ transition: all 0.4s ease 0s;
 	background: #F7D4C8;
 	z-index: -1;
 }
-/* FOOTER */
+/* ------------------------------------------------------------------------------------- FOOTER */
 .footer {
 	background: BLACK;
 	height: auto;
@@ -371,7 +374,7 @@ font-size: 25px;
 color: #F7D4C8;
 }
 
-/* -------------------------------- Media Queries */
+/* ----------------------------------------------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
@@ -406,7 +409,7 @@ color: #F7D4C8;
     }
 }
 
-/* Allauth form formatting */
+/* ----------------------------------------------------------------------------------- Allauth form formatting */
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
@@ -458,4 +461,32 @@ color: #F7D4C8;
 
 .allauth-form-inner-content a {
 	color: #db4e4d; /* text-info */
+}
+
+/* --------------------------------------------------------------------------------------------Product Form */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    border-color: #BC7B6A;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #BC7B6A;
+    border-color: #BC7B6A;
+    border-radius: 0;
 }

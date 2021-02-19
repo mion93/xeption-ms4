@@ -28,7 +28,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
-                    <h3 class="mb-0" >{{ product.name }}</h3>
+                    <h3 class="mb-0" style="font-family: 'prata', serif;" >{{ product.name }}</h3>
                     <p class="lead mb-0 text-left font-weight-bold" style="font-family: 'Prata, serif'; letter-spacing: 2px;">£{{ product.price }}</p>
                      {% if product.category %}
                                             <p class="small mt-1 mb-0">
@@ -45,8 +45,8 @@
                     {% if request.user.is_superuser %}
                     <div class="row">
                        <small class="ml-3">
-                        <a href="{% url 'edit_product' product.id %}" class="text-info font-weight-bold">Edit</a> |
-                        <a class="text-danger font-weight-bold" href="{% url 'delete_product' product.id %}">Delete</a>
+                        <a href="{% url 'edit_product' product.id %}" class=" font-weight-bold" style="color: #BC7B6A;">Edit</a> |
+                        <a class="font-weight-bold" style="color: #6d3a15;" href="{% url 'delete_product' product.id %}">Delete</a>
                        </small>
                     </div>
                     {% endif %}
@@ -82,13 +82,13 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
+                                <a href="{% url 'products' %}" class="btn btn-black rounded-0 mt-5">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
-                                    <span class="text-uppercase">Keep Shopping&#128091;</span>
+                                    <span class="text-uppercase">Keep Shopping</span>
                                 </a>
-                                <input type="submit" class="btn btn-outline-black rounded-0 text-uppercase mt-5"  value="Add to Bag&#128150;">
+                                <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5"  value="Add to Bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
