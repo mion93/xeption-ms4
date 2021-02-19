@@ -54,13 +54,15 @@ body {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
     border: 2px solid black;
+    font-family: 'prata', serif;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
-    color: #F7D4C8 !important;
+    color: white!important;
+    font-family: 'prata', serif;
 }
 
 .shop-now-button:hover,
@@ -71,6 +73,7 @@ body {
 .btn-black:focus {
     background: #222;
     color: white;
+    
 }
 
 .text-black {
