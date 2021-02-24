@@ -1,0 +1,1 @@
+web: gunicorn xeption.wsgi:application
