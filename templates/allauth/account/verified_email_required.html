@@ -4,16 +4,16 @@
 
 {% block inner_content %}
 <hr>
-<h2 class="logo-font mb-4">{% trans "Verify Your E-mail Address" %}</h2>
-<hr>
+<h1 class="logo-font mb-4">{% trans "Verify Your E-mail Address" %}</h1>
+ <hr style="border: 2px white solid;">
 {% url 'account_email' as email_url %}
-<p>{% blocktrans %}This part of the site requires us to verify that
+<h3>{% blocktrans %}This part of the site requires us to verify that
    you are who you claim to be. For this purpose, we require that you
    verify ownership of your e-mail address. {% endblocktrans %}
-</p>
-<p>{% blocktrans %}We have sent an e-mail to you for
+</h3>
+<h3>{% blocktrans %}We have sent an e-mail to you for
    verification. Please click on the link inside this e-mail. Please
    contact us if you do not receive it within a few minutes.{% endblocktrans %}
-</p>
-<p>{% blocktrans %}<strong>Note:</strong> you can still <a href="{{ email_url }}">change your e-mail address</a>.{% endblocktrans %}</p>
+</h3>
+<h3>{% blocktrans %}<strong>Note:</strong> you can still <a href="{{ email_url }}">change your e-mail address</a>.{% endblocktrans %}</h3>
 {% endblock %}
