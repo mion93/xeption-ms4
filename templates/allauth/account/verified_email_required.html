@@ -4,18 +4,20 @@
 
 {% block inner_content %}
 <hr>
-  <a class="category-badge text-decoration-none ">
-                        <span class="p-3 mb-4 logo-font badge badge-white text-white bg-black text-center" style="font-size: 25px; font-family: 'Prata', serif;">{% trans "Verify Your E-mail Address" %}</span>
-                    </a>
- <hr style="border: 2px white solid;">
+<a class="category-badge text-decoration-none ">
+    <span class="p-3 mb-4 logo-font badge badge-white text-white bg-black text-center"
+        style="font-size: 25px; font-family: 'Prata', serif;">{% trans "Verify Your E-mail Address" %}</span>
+</a>
+<hr style="border: 2px white solid;">
 {% url 'account_email' as email_url %}
 <h3>{% blocktrans %}This part of the site requires us to verify that
-   you are who you claim to be. For this purpose, we require that you
-   verify ownership of your e-mail address. {% endblocktrans %}
+    you are who you claim to be. For this purpose, we require that you
+    verify ownership of your e-mail address. {% endblocktrans %}
 </h3>
 <h3>{% blocktrans %}We have sent an e-mail to you for
-   verification. Please click on the link inside this e-mail. Please
-   contact us if you do not receive it within a few minutes.{% endblocktrans %}
+    verification. Please click on the link inside this e-mail. Please
+    contact us if you do not receive it within a few minutes.{% endblocktrans %}
 </h3>
-<h3>{% blocktrans %}<strong>Note:</strong> you can still <a href="{{ email_url }}">change your e-mail address</a>.{% endblocktrans %}</h3>
+<h3>{% blocktrans %}<strong>Note:</strong> you can still <a href="{{ email_url }}">change your e-mail
+        address</a>.{% endblocktrans %}</h3>
 {% endblock %}

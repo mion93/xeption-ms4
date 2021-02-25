@@ -5,18 +5,21 @@
 </li>
 
 <li class="list-inline-item">
-    <a class="text-black nav-link d-block d-lg-none" style="margin: 0; padding: 0;" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="text-black nav-link d-block d-lg-none" style="margin: 0; padding: 0;" href="#" id="mobile-search"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-search fa-lg"></i></div>
-            
+
         </div>
     </a>
     <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
         <form class="form" method="GET" action="{% url 'products' %}">
             <div class="input-group w-100">
-                <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
+                <input class="form-control border border-black rounded-0" type="text" name="q"
+                    placeholder="Search our site">
                 <div class="input-group-append">
-                    <button class="form-control form-control btn text-black border border-black rounded-0" type="submit" id="nav-icons:hover">
+                    <button class="form-control form-control btn text-black border border-black rounded-0" type="submit"
+                        id="nav-icons:hover">
                         <span class="icon">
                             <i class="fas fa-search my-0"></i>
                         </span>
@@ -29,34 +32,36 @@
 
 
 <li class="list-inline-item dropdown">
-    <a class="text-black nav-link d-block d-lg-none " style="margin: 0; padding: 0;" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="text-black nav-link d-block d-lg-none " style="margin: 0; padding: 0;" href="#" id="user-options"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-user fa-lg "></i></div>
-           
+
         </div>
     </a>
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
         {% if request.user.is_authenticated %}
-            {% if request.user.is_superuser %}
-                <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-            {% endif %}
-            <a href="" class="dropdown-item">Profile</a>
-            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+        {% if request.user.is_superuser %}
+        <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+        {% endif %}
+        <a href="" class="dropdown-item">Profile</a>
+        <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
         {% else %}
-            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+        <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
         {% endif %}
     </div>
 </li>
 <li class="list-inline-item">
-    <a class="{% if grand_total %}text-black font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none " href="{% url 'view_bag' %}">
+    <a class="{% if grand_total %}text-black font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none "
+        href="{% url 'view_bag' %}">
         <div class="text-center">
             <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-            <p class="my-1" >
+            <p class="my-1">
                 {% if grand_total %}
-                    £{{ grand_total|floatformat:2 }}
+                £{{ grand_total|floatformat:2 }}
                 {% else %}
-                    £0.00
+                £0.00
                 {% endif %}
             </p>
         </div>
