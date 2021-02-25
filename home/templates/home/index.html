@@ -2,20 +2,20 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
 
 <!-- HERO IMAGE -->
- 
+
 <!-- SHOW PRODUCTS SECTION-->
 <!-- Portfolio Grid-->
- 
+
 <div class="index" style="background-image: url('https://i.ibb.co/rcfz3Vn/bg-10.jpg'); 
 background-size: cover;
   height: calc(100vh - 164px);
@@ -31,8 +31,7 @@ background-size: cover;
                 <p></p>
                 <div class="my-4">
                     <h4>
-                        <a href="{% url 'products' %}"
-                            class="shop-now-button btn rounded-0 text-uppercase py-2">Shop
+                        <a href="{% url 'products' %}" class="shop-now-button btn rounded-0 text-uppercase py-2">Shop
                             Now</a>
                     </h4>
                 </div>
@@ -44,47 +43,59 @@ background-size: cover;
 <!---CATEGORIES-->
 
 
-  <section class="content-section bg-black text-white">
+<section class="content-section bg-black text-white">
     <div class="container text-center">
-      
+
     </div>
-  </section>
- 
+</section>
+
 
 <div class="container-fluid mt-4" style="padding-top: 30px; padding-bottom: 50px;">
     <div class="row justify-content-center">
         <div class="col-auto mb-3 text-center">
-            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1609242914948-c1740efdae9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=933&q=80'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+            <div class="card category-cards"
+                style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1609242914948-c1740efdae9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=933&q=80'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                    <h1 class="card-title" style="color: white; font-family: 'prata', serif; letter-spacing: 2px;"><a href="{% url 'products' %}?category=earrings" target="_blank" style="text-decoration: none; color: white;">Earrings</a></h1>
-                
-                    
-                    
+                    <h1 class="card-title" style="color: white; font-family: 'prata', serif; letter-spacing: 2px;"><a
+                            href="{% url 'products' %}?category=earrings"
+                            style="text-decoration: none; color: white;">Earrings</a></h1>
+
+
+
                 </div>
             </div>
         </div>
         <div class="col-auto mb-3 text-center">
-            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1611652022419-a9419f74343d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+            <div class="card category-cards"
+                style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1611652022419-a9419f74343d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                    <h1 class="card-title" style="color: white; font-family: 'prata', serif; letter-spacing: 2px;"><a href="{% url 'products' %}?category=necklaces" target="_blank" style="text-decoration: none; color: white;">Necklaces</a></h1>
-               
+                    <h1 class="card-title" style="color: white; font-family: 'prata', serif; letter-spacing: 2px;"><a
+                            href="{% url 'products' %}?category=necklaces"
+                            style="text-decoration: none; color: white;">Necklaces</a></h1>
+
                 </div>
             </div>
         </div>
         <div class="col-auto mb-3 text-center">
-            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1599458348985-236f9b110da1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+            <div class="card category-cards"
+                style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1599458348985-236f9b110da1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                    <h1 class="card-title" style="color: white; font-family: 'prata', serif; letter-spacing: 2px;"><a href="{% url 'products' %}?category=rings" target="_blank" style="text-decoration: none; color: white;">Rings</a></h1>
-                    
+                    <h1 class="card-title" style="color: white; font-family: 'prata', serif; letter-spacing: 2px;"><a
+                            href="{% url 'products' %}?category=rings"
+                            style="text-decoration: none; color: white;">Rings</a></h1>
+
                 </div>
             </div>
         </div>
         <div class="col-auto mb-3 text-center">
-            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://img.nihaojewelry.com/product/2020/7/2/1278498302219915264_thumb_800x800/NHXI231002.jpg'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+            <div class="card category-cards"
+                style="width: 18rem; height: 8rem; background-image: url('https://img.nihaojewelry.com/product/2020/7/2/1278498302219915264_thumb_800x800/NHXI231002.jpg'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                    <h1 class="card-title" style="color: white; font-family: 'prata', serif; letter-spacing: 2px;"><a href="{% url 'products' %}?category=anklets" target="_blank" style="text-decoration: none; color: white;">Anklets</a></h1>
-                   
-                           
+                    <h1 class="card-title" style="color: white; font-family: 'prata', serif; letter-spacing: 2px;"><a
+                            href="{% url 'products' %}?category=anklets"
+                            style="text-decoration: none; color: white;">Anklets</a></h1>
+
+
                 </div>
             </div>
         </div>
@@ -92,135 +103,157 @@ background-size: cover;
             <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://img.nihaojewelry.com/product/2020/8/4/1290457282420805632_thumb_800x800/NHAU240822.jpg'); background-position: center; text-shadow: 
             1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                   <h1 class="card-title" style="color: white;  font-family: 'prata', serif; letter-spacing: 2px;"><a href="{% url 'products' %}?category=hairpins" target="_blank" style="text-decoration: none; color: white;">Hair Clips</a></h1>
-                
-                   
+                    <h1 class="card-title" style="color: white;  font-family: 'prata', serif; letter-spacing: 2px;"><a
+                            href="{% url 'products' %}?category=hairpins"
+                            style="text-decoration: none; color: white;">Hair Clips</a></h1>
+
+
                 </div>
             </div>
         </div>
         <div class="col-auto mb-3 text-center">
-            <div class="card category-cards" style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1528121238716-306799520ddc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1400&q=80'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
+            <div class="card category-cards"
+                style="width: 18rem; height: 8rem; background-image: url('https://images.unsplash.com/photo-1528121238716-306799520ddc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1400&q=80'); background-position: center; text-shadow: 1px 2px 2px black; box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);">
                 <div class="card-body">
-                  <h1 class="card-title" style="color: white;  font-family: 'prata', serif; letter-spacing: 2px;"><a href="{% url 'products' %}?category=egift" target="_blank" style="text-decoration: none; color: white;">E-gifts</a></h1>
-           
+                    <h1 class="card-title" style="color: white;  font-family: 'prata', serif; letter-spacing: 2px;"><a
+                            href="{% url 'products' %}?category=egift"
+                            style="text-decoration: none; color: white;">E-gifts</a></h1>
+
                 </div>
             </div>
         </div>
-       
+
     </div>
 </div>
 
 
 <!-- About Section-->
-        <section class="page-section text-black mb-0" style="background-color: white;">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-black" style=" padding: 15px;">About Us</h2>
-               
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!--Image Row-->
-                
-                <!-- About Section Content-->
-                <div class="row justify-content-center" style="margin-top: 15px;">
-                    <div class="col-lg-4 ml-auto text-center"><p class="lead">Xeption London offers beautiful Jewellery at affordable price.<br> Our goals is creating and selling timeless eye-catching designs inspired by art and nature.   </p></div>
-                    <div class="col-lg-4 mr-auto text-center"><p class="lead">Xeption London is designed in UK, London by a team of two design students, creating the perfect twists on the latest fashing trends.</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download mr-2"></i>
-                        
-                    </a>
-                </div>
-            </div>
-            
-        </section>
+<section class="page-section text-black mb-0" style="background-color: white;">
+    <div class="container">
+        <!-- About Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-black" style=" padding: 15px;">About Us</h2>
 
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!--Image Row-->
 
-  <!---SERVICES-->
-  <section class="page-section" id="services" style="margin-top: 50px; margin-bottom: 30px;">
-            <div class="container">
-                <div class="text-center">
-                
-            
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-black"></i>
-                            <i class="fas fa-tag fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Free Return.</h4>
-                        <p style="color: #1b0e05;">We want you to love Xeption London,but if for any reason you are unsatisfied, simply return the item to us in its original condition within 30 days of receipt.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-black"></i>
-                            <i class="fas fa-heart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">We love our customers.</h4>
-                        <p  style="color: #1b0e05;">We are known to provide best possible service ever and we are thankful for the support of our small business.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-black"></i>
-                            <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">100% satisfaction guaranteed. </h4>
-                        <p style="color: #1b0e05;">Free returns on everything for 3 months.</p>
-                    </div>
-                </div>
+        <!-- About Section Content-->
+        <div class="row justify-content-center" style="margin-top: 15px;">
+            <div class="col-lg-4 ml-auto text-center">
+                <p class="lead">Xeption London offers beautiful Jewellery at affordable price.<br> Our goals is creating
+                    and selling timeless eye-catching designs inspired by art and nature. </p>
             </div>
-        </section>
-  <!--GET INSPIRED-->
-  <section class="content-section bg-black text-white">
-    <div class="container text-center">
-      <h3 class="mb-4">&#127775;GET INSPIRED&#127775;</h3>
-      
+            <div class="col-lg-4 mr-auto text-center">
+                <p class="lead">Xeption London is designed in UK, London by a team of two design students, creating the
+                    perfect twists on the latest fashing trends.</p>
+            </div>
+        </div>
+        <!-- About Section Button-->
+        <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                <i class="fas fa-download mr-2"></i>
+
+            </a>
+        </div>
     </div>
-  </section>
+
+</section>
+
+
+<!---SERVICES-->
+<section class="page-section" id="services" style="margin-top: 50px; margin-bottom: 30px;">
+    <div class="container">
+        <div class="text-center">
+
+
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-black"></i>
+                    <i class="fas fa-tag fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Free Return.</h4>
+                <p style="color: #1b0e05;">We want you to love Xeption London,but if for any reason you are unsatisfied,
+                    simply return the item to us in its original condition within 30 days of receipt.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-black"></i>
+                    <i class="fas fa-heart fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">We love our customers.</h4>
+                <p style="color: #1b0e05;">We are known to provide best possible service ever and we are thankful for
+                    the support of our small business.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-black"></i>
+                    <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">100% satisfaction guaranteed. </h4>
+                <p style="color: #1b0e05;">Free returns on everything for 3 months.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--GET INSPIRED-->
+<section class="content-section bg-black text-white">
+    <div class="container text-center">
+        <h3 class="mb-4">&#127775;GET INSPIRED&#127775;</h3>
+
+    </div>
+</section>
 <!-- INSTAGRAM FOLLOW US -->
 
 <div class>
-    <h2 class="text-center uppercase" id="instagram"><a class="text-black" href="https://www.instagram.com/xeptionx/" target="_blank" ><i class="fab fa-instagram" ></i> Follow Us</a> </h2>
+    <h2 class="text-center uppercase" id="instagram"><a class="text-black" href="https://www.instagram.com/xeptionx/"
+            target="_blank"><i class="fab fa-instagram"></i> Follow Us</a> </h2>
 </div>
 <!---GALLERY-->
 <div class="container">
 
 
-  <hr class="mt-2 mb-5">
+    <hr class="mt-2 mb-5">
 
-  <div class="row text-center text-lg-left">
+    <div class="row text-center text-lg-left">
 
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1583483920039-e017bb30556e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80/400x300" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1586878340946-f81bfad535f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80/400x300" alt="">
-          </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1569388330338-53ecda03dfa1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" alt="">
-          </a>
-    </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail"
+                    src="https://images.unsplash.com/photo-1583483920039-e017bb30556e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80"
+                    alt="">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail"
+                    src="https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80/400x300"
+                    alt="">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail"
+                    src="https://images.unsplash.com/photo-1586878340946-f81bfad535f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80/400x300"
+                    alt="">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail"
+                    src="https://images.unsplash.com/photo-1569388330338-53ecda03dfa1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80"
+                    alt="">
+            </a>
+        </div>
 
-  
- 
-    
-  </div>
+
+
+
+    </div>
 
 </div>
 <!-- /.container -->
