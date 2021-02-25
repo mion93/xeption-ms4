@@ -4,7 +4,9 @@
 
 {% block inner_content %}
 <hr>
-<h1 class="logo-font mb-4">{% trans "Verify Your E-mail Address" %}</h1>
+  <a class="category-badge text-decoration-none ">
+                        <span class="p-3 mb-4 logo-font badge badge-white text-white bg-black text-center" style="font-size: 25px; font-family: 'Prata', serif;">{% trans "Verify Your E-mail Address" %}</span>
+                    </a>
  <hr style="border: 2px white solid;">
 {% url 'account_email' as email_url %}
 <h3>{% blocktrans %}This part of the site requires us to verify that
