@@ -6,65 +6,67 @@
 {% endblock %}
 {% block page_header %}
 <div class="header-container">
-   <div class="row">
-      <div class="col"></div>
-   </div>
+    <div class="row">
+        <div class="col"></div>
+    </div>
 </div>
 {% endblock %}
 {% block content %}
 <div class="mx-auto w-md-75">
-   <!--Page title-->
-  <div class="col text-center">
-                <hr>
-                <a class="category-badge text-decoration-none">
-                        <span class="p-3 mb-4 logo-font badge badge-white text-white bg-black" style="font-size: 25px; font-family: 'Prata', serif;">Hello {{ user.username }} &#129505;</span>
-                    </a>
-                <hr style="border: 2px white solid;">
-            
-   </div>
-   <!--Personal details-->
-   <div class="row mx-sm-4 justify-content-between ">
-      <div class="col-12 col-lg-6">
-         <div class=" pt-3 pb-5 px-4 mb-4 mb-lg-0">
-            <h4 class="text-black ">PERSONAL INFORMATIONS &#128203;</h4>
-            <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
-               {% csrf_token %}
-               {{ form|crispy }}
-               <button class="btn btn-black p-font rounded-0 text-uppercase float-left">Update Information</button>
-            </form>
-         </div>
-      </div>
-      <!--Order history-->
-      <div class="col-12 col-lg-6 mb-4">
-         <div class=" pt-3 pb-5 px-4">
-            <h4 class="text-black">ORDER HISTORY &#128230;</h4>
-            <div class="order-history table-responsive p-font">
-               {% for order in orders|dictsortreversed:"date" %}
-               <table class="table table-sm table-borderless mt-3 mb-2">
-                  <thead>
-                     <tr>
-                        <th>Order No.</th>
-                        <th>Order Date</th>
-                        <th>Order Total</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <tr>
-                        <td>
-                           {{ order.order_number|truncatechars:6 }}
-                        </td>
-                        <td>{{ order.date }}</td>
-                        <td>£{{ order.grand_total }}</td>
-                     </tr>
-                  </tbody>
-               </table>
-               <a href="{% url 'order_history' order.order_number %}" class="btn btn-black rounded-0 text-uppercase py-1 px-2">View Order Details</a>
-               {% endfor %}
-               <br>
+    <!--Page title-->
+    <div class="col text-center">
+        <hr>
+        <a class="category-badge text-decoration-none">
+            <span class="p-3 mb-4 logo-font badge badge-white text-white bg-black"
+                style="font-size: 25px; font-family: 'Prata', serif;">Hello {{ user.username }} &#129505;</span>
+        </a>
+        <hr style="border: 2px white solid;">
+
+    </div>
+    <!--Personal details-->
+    <div class="row mx-sm-4 justify-content-between ">
+        <div class="col-12 col-lg-6">
+            <div class=" pt-3 pb-5 px-4 mb-4 mb-lg-0">
+                <h4 class="text-black ">PERSONAL INFORMATIONS &#128203;</h4>
+                <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <button class="btn btn-black p-font rounded-0 text-uppercase float-left">Update Information</button>
+                </form>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+        <!--Order history-->
+        <div class="col-12 col-lg-6 mb-4">
+            <div class=" pt-3 pb-5 px-4">
+                <h4 class="text-black">ORDER HISTORY &#128230;</h4>
+                <div class="order-history table-responsive p-font">
+                    {% for order in orders|dictsortreversed:"date" %}
+                    <table class="table table-sm table-borderless mt-3 mb-2">
+                        <thead>
+                            <tr>
+                                <th>Order No.</th>
+                                <th>Order Date</th>
+                                <th>Order Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    {{ order.order_number|truncatechars:6 }}
+                                </td>
+                                <td>{{ order.date }}</td>
+                                <td>£{{ order.grand_total }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="{% url 'order_history' order.order_number %}"
+                        class="btn btn-black rounded-0 text-uppercase py-1 px-2">View Order Details</a>
+                    {% endfor %}
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
 {% block postloadjs %}
