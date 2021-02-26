@@ -413,7 +413,6 @@ The project uses Amazon Web Services s3,a cloud-based storage service, to store 
 </p>
 </details>
 
-<details>
 
 
 # TESTING 
