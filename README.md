@@ -43,6 +43,8 @@ The app was built using GitHub and deployed to Heroku, with all of static files 
 
 I decided to create a simple minimalistic Logo by using Homemade Apple font from Google Fonts, that allows to have an improved visual polish and professional appearance. 
 
+![Logo](https://i.ibb.co/kJ9rVCm/xeptionlogo.png)
+
 ### Typography
 
 - Poppins, serif
@@ -58,9 +60,6 @@ Choosing a Relation Database it was a good choice because it doesn't require any
 
 # Features
 
-### RESPONSIVENESS
-
-- Responsive on all device sizes, using Bootstrap grid system and media queries.
 
 ### Home
 
@@ -137,11 +136,35 @@ Choosing a Relation Database it was a good choice because it doesn't require any
 - FONT AWESOME
 - BALSAMIQ
 
-# CREDITS
+# TESTING 
+## RESPONSIVENESS
 
-# CREDITS
+- Responsive on all device sizes, using Bootstrap grid system and media queries.
+- The website has been tested across multiple screen sizes using Google Chrome developer tools for a range of screen sizes, portrait and landscape, including:
 
-# MEDIA
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5 SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+
+## USER STORIES 
+
+Users stories were tested as shown below:
+
+![User Stories](https://i.ibb.co/YWj09bb/user-stories.png)
+
+
+## CREDITS
+
+
+
+## MEDIA
 
 - Products Images were taken from NihaoJewellery
 - Homepage Images were taken from Unspleash and PixaBay
