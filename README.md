@@ -404,7 +404,7 @@ The project uses Amazon Web Services s3,a cloud-based storage service, to store 
 <summary>Forking the GitHub Repository</summary>
 <p>
 
-1. Log in to GitHub and locate the GitHub Repository. Zeption repository can be found [here](https://github.com/mion93/xeption-ms4)
+1. Log in to GitHub and locate the GitHub Repository. Xeption repository can be found [here](https://github.com/mion93/xeption-ms4)
 
 2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
 
@@ -460,7 +460,7 @@ Users stories were tested as shown below:
 - Homepage Images were taken from Unspleash and PixaBay
 
 ## Acknowledgments
-My Mentorhis continuous support throughout the project.
+My Mentor for his continuous support throughout the project.
 
 The help from the tutors at Code Institute.
 
