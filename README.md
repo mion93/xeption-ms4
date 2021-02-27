@@ -9,7 +9,7 @@
 
 # User Experience & User Interface
 
-## Purpose
+## PURPOSE
 
 The concept of my Full-Stack Development Milestone is to create an E-commerce shop selling jewellery.  
 
@@ -21,11 +21,11 @@ The app was built using GitHub and deployed to Heroku, with all of static files 
 
 ## DESIGN 
 
-### Research
+### RESEARCH
 
 ![Research](https://i.ibb.co/hWK1VSV/Progetto-senza-titolo.png)
 
-### Colour Scheme
+### COLOUR SCHEMA
 
 * For this concept of XEPTION E-commerce, I decided to use Nude Colors that are really pleasing and minimalist for the eye. 
 
@@ -39,18 +39,25 @@ The app was built using GitHub and deployed to Heroku, with all of static files 
 
 **#FFFFFF**
 
-### Logo
+### LOGO
 
 I decided to create a simple minimalistic Logo by using Homemade Apple font from Google Fonts, that allows to have an improved visual polish and professional appearance. 
 
 ![Logo](https://i.ibb.co/kJ9rVCm/xeptionlogo.png)
 
-### Typography
+### TYPHOGRAPHY
 
 - Poppins, serif
 - Homemade Apple, cursive (Used also for the Main Logo)
 - Prata, serif
 - FontAwesome - Icons
+
+## USER STORIES & TESTING
+
+Users stories were tested as shown below:
+
+![User Stories](https://i.ibb.co/YWj09bb/user-stories.png)
+
 
 ## Database
 
@@ -61,7 +68,7 @@ Choosing a Relation Database it was a good choice because it doesn't require any
 # Features
 
 
-### Home
+### HOME
 
 - Hero Image with a button that links to all products.
 - Category Listings of categories of products of the e-commerce.
@@ -113,6 +120,11 @@ Choosing a Relation Database it was a good choice because it doesn't require any
 
 - Newsletter Page
 - Contact Form
+
+# Wireframes 
+
+I choose Balsamiq for the planning of the desktop and mobile version of Xeption e-commerce. 
+Wireframes can be found [here](readme/wireframes/)
 
 # Technologies
 
@@ -415,7 +427,10 @@ The project uses Amazon Web Services s3,a cloud-based storage service, to store 
 
 
 
-# TESTING 
+# Testing
+
+- Testing file can be found [here](readme/testing/testing.md)
+
 ## RESPONSIVENESS
 
 - Responsive on all device sizes, using Bootstrap grid system and media queries.
@@ -432,7 +447,7 @@ The project uses Amazon Web Services s3,a cloud-based storage service, to store 
 - iPad
 - iPad Pro
 
-## Browser Compatibility
+## BROWSER COMPATIBILITY
 The live website, hosted on gitpages, has been opened and tested on multiple browsers for responsives and intended appearance. Browers tested included:
 
 - Google Chrome
@@ -443,23 +458,17 @@ The live website, hosted on gitpages, has been opened and tested on multiple bro
 - Opera
 - Overall the website worked well and appeared as intended on different sizes across different browsers.
 
-## USER STORIES 
-
-Users stories were tested as shown below:
-
-![User Stories](https://i.ibb.co/YWj09bb/user-stories.png)
-
-
-## CREDITS
 
 
 
-## MEDIA
+
+
+## CREDITS & MEDIA
 
 - Products Images were taken from NihaoJewellery
 - Homepage Images were taken from Unspleash and PixaBay
 
-## Acknowledgments
+## ACNOWLEDGEMENTS
 My Mentor for his continuous support throughout the project.
 
 The help from the tutors at Code Institute.
