@@ -121,6 +121,7 @@ Choosing a Relation Database it was a good choice because it doesn't require any
 - Newsletter Page
 - Contact Form
 
+
 # Wireframes 
 
 I choose Balsamiq for the planning of the desktop and mobile version of Xeption e-commerce. 
@@ -522,7 +523,6 @@ The live website, hosted on gitpages, has been opened and tested on multiple bro
 - Firefox
 - Opera
 - Overall the website worked well and appeared as intended on different sizes across different browsers.
-
 
 
 

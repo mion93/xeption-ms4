@@ -22,3 +22,35 @@
 - User can create a profile by clicking on the user icon and will be redirected to a SIGN UP page.
 - By filling up the form with Email, Username and Password, user will be registered to the website.
 -
+
+
+
+
+
+
+
+## VALIDATOR CHECKS
+
+- [***CSS VALIDATOR***]
+    - SUCCESS
+    
+- [*** JsHINT ***]
+     - 	WARNING: 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+     -  WARNING: 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+
+- [*** PEP8 ***]
+     - SUCCESS 
+
+- [*** FLAKE8 ***]
+     -  By using the following command I was able to check the problems across all the files.
+
+     $ python3 - m flake8
+
+      - " DJ01 Avoid using null=True on string-based fields such URLField." 
+      - "imported but unused " ( I decide to leave this imports as are not affecting my code)
+      - E501 line too long (83 > 79 characters) on setting.py ( I decided to not break the variables)
+
+## BUGS & FUTURE FIXING 
+
+- Impossible to load an image URL to Product Management as the image can be loaded locally.
+- Favicon image couldn't load from AWS. 
