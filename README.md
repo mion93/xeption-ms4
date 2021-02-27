@@ -128,25 +128,62 @@ Wireframes can be found [here](readme/wireframes/)
 
 # Technologies
 
-- HTML5
-- CSS3
-- JAVASCRIPT
-- PYTHON
-- DJANGO
-- BOOTSTRAP 4.5.3
-- GITHUB - Used for storing the project
-- GIT - Used for Version Control
-- BOTO3
-- HEROKU
-- GUNICORN -WSGI SERVER used to connect web server and web application
-- PILLOW - Python Library used for saving images, opening and manipulating
-- PSYCOPG2 - PostgreSQL database adapter
-- AWS
-- STRIPE - Used to setup the payments
-- TEMP MAIL
-- GOOGLE FONTS
-- FONT AWESOME
-- BALSAMIQ
+## LANGUAGES
+- [**HTML5**](https://en.wikipedia.org/wiki/HTML5)
+- [**CSS3**](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [**JavaScript**](https://www.javascript.com/)
+- [**Python**](https://www.python.org/)
+
+## LIBRARIES, FRAMEWORKS & PROGRAMS
+
+- [**Django**](https://www.djangoproject.com/)
+ - Python Web Framework used to build the app.
+
+- [**Bootstrap 4.5.3**](https://getbootstrap.com/)
+ - Used for styling the website and used for creating a responsive design template.
+
+- [**GitHub**](https://github.com/)
+ - GitHub is used to store the project code during development.
+
+- [**Git**](https://git-scm.com/)
+  - Used for version control.
+
+- [**Boto3**](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+  - Allows Python to talk to AWS SDK so you can store data in S3 buckets .
+
+- [**Heroku Postgres**](https://www.heroku.com/postgres)
+  - Database from Heroku used to store the data
+
+- [**Django-crispy-forms**](https://django-crispy-forms.readthedocs.io/en/latest/install.html)
+  - Allows style and HTML control of Django template form displays.
+
+
+- [**Heroku**](https://www.heroku.com/)
+  - Heroku is the app platform the project was deployed to.
+
+- [**gunicorn**](https://gunicorn.org/)
+  - WSGI SERVER used to connect web server and web application.
+
+- [**pillow**](https://pypi.org/project/Pillow/2.2.1/)
+  - Python Library used for saving images, opening and manipulating.
+
+- [**psycopg2**](https://pypi.org/project/psycopg2/) 
+  - PostgreSQL database adapter.
+
+- [**AWS**](https://aws.amazon.com/)
+  -  - A cloud-based storage service used to store static and, media files.
+
+- [**Stripe**](https://stripe.com/gb)
+  - Stripe was used to deal with payments.
+
+- [**Google fonts**](https://fonts.google.com/)
+  - Google fonts were used to import the fonts into the CSS file which is used on all pages throughout the project.
+
+- [**Font Awesome 4.7.0**](https://fontawesome.com/)
+  - Font Awesome was used for all icons on site. 
+
+- [**Balsamiq**](https://balsamiq.cloud/)
+  - Balsamiq was used to create the wireframes.
 
 # **Deployment**
 
@@ -425,6 +462,34 @@ The project uses Amazon Web Services s3,a cloud-based storage service, to store 
 </p>
 </details>
 
+
+<details>
+<summary> To run the code locally:</summary>
+
+From GitHub, click on the "Clone" button.
+
+Choose "Download Zip" (The download starts).
+
+After the download is complete, open the zip folder by double clicking to access created page.
+
+Set up a virtual environment if you have not already done so.
+
+Activate your virtual environment, please see the Python Documentation on virtual environments for further instructions.
+
+Install any required module and freeze them into requirements.txt.
+
+Create a new file env.py at the base directory.
+
+Copy all your secret keys from settings.py and paste into env.py file.
+
+Then complete the process by running migration, createsuperuser, preload products and tags, then runserver.
+
+Finally, ensure to run the following command whenever changes are made to static files.
+
+                    ```
+                    python3 manage.py collectstatic
+                    ```
+</details>
 
 
 # Testing
