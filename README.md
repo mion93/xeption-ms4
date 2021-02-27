@@ -464,7 +464,7 @@ The project uses Amazon Web Services s3,a cloud-based storage service, to store 
 
 
 <details>
-<summary> To run the code locally:</summary>
+<summary>To run the code locally</summary>
 
 From GitHub, click on the "Clone" button.
 
