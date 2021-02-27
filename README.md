@@ -158,7 +158,6 @@ Wireframes can be found [here](readme/wireframes/)
 - [**Django-crispy-forms**](https://django-crispy-forms.readthedocs.io/en/latest/install.html)
   - Allows style and HTML control of Django template form displays.
 
-
 - [**Heroku**](https://www.heroku.com/)
   - Heroku is the app platform the project was deployed to.
 
@@ -524,18 +523,16 @@ The live website, hosted on gitpages, has been opened and tested on multiple bro
 - Opera
 - Overall the website worked well and appeared as intended on different sizes across different browsers.
 
-
-
-
-
 ## CREDITS & MEDIA
 
-- Products Images were taken from NihaoJewellery
-- Homepage Images were taken from Unspleash and PixaBay
+- Products Images were taken from ***NihaoJewellery***.
+- Homepage Images were taken from ***Unspleash*** and ***PixaBay***.
+- StackOverflow 
 
 ## ACNOWLEDGEMENTS
-My Mentor for his continuous support throughout the project.
 
-The help from the tutors at Code Institute.
+My Mentor Gerard Mcbride for his continuous support throughout the project.
 
-The Code Institute Slack Community.
+The tutors from Code Institute (Stephe, Igor, Johann and Alan).
+
+Slack Community of Code Institute.
