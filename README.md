@@ -137,13 +137,13 @@ Wireframes can be found [here](readme/wireframes/)
 ## LIBRARIES, FRAMEWORKS & PROGRAMS
 
 - [**Django**](https://www.djangoproject.com/)
- - Python Web Framework used to build the app.
+  - Python Web Framework used to build the app.
 
 - [**Bootstrap 4.5.3**](https://getbootstrap.com/)
- - Used for styling the website and used for creating a responsive design template.
+  - Used for styling the website and used for creating a responsive design template.
 
 - [**GitHub**](https://github.com/)
- - GitHub is used to store the project code during development.
+  - GitHub is used to store the project code during development.
 
 - [**Git**](https://git-scm.com/)
   - Used for version control.
